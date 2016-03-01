@@ -9,8 +9,19 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.jared.notification_service.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Start Foreground Service"
+        android:id="@+id/startForegroundBtn"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Foreground Service"
+        android:id="@+id/stopForegroundBtn"
+        android:layout_below="@+id/startForegroundBtn"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
